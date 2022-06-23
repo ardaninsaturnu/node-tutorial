@@ -1,0 +1,15 @@
+{
+  "name": "alex-de-souza",
+  "version": "1.0.0",
+  "description": "about http server app",
+  "main": "environment.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ardaninsaturnu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "moment": "^2.29.3"
+  }
+}
