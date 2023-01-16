@@ -70,7 +70,8 @@ const generateHash = data.digest('hex');
 console.log(generateHash)
 */
 
-//loading the required modules in node.js
+// embed into hash a file
+/*//loading the required modules in node.js
 const crypto = require('crypto');
 const fs = require('fs');
 
@@ -94,6 +95,19 @@ file_data.on('end', function () {
   fs.writeFileSync( filename, gen_hash );
   console.log(gen_hash)
 })
+*/
+
+/*-
+const crypto = require( 'crypto' );
+// creating hmac object
+const hmac = crypto.createHmac('sha512', 'yoursecretkeyhere');
+// passing the data to be hashed
+const data = hmac.update('ardaninsaturnu');
+// Creating the hmac in the required format
+gen_hmac = data.digest('hex');
+// printing output on the console
+console.log('hmac', gen_hmac)
+-*/
 
 
 
