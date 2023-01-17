@@ -16,11 +16,9 @@ app.get('/ardaninsaturnu', function( req,res ){
   //For demo purpose
   console.log(name + '' + email + ' ' + password);
   
-  /**
-   * Store this in a database and perform further processing
-   */
+  /** Store this in a database and perform further processing **/
   
-  res.send("In ardaninsaturnu module")
+  res.send( "In ardaninsaturnu module" )
 })
 
 app.listen('3000')
