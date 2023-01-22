@@ -1,4 +1,4 @@
-
+/*
 var crypto = require('crypto'),algorithm = 'aes-256-ctr',password = 'RJ23edrf';
 //Here "aes-256-cbc" is the advance encryption standard we are using for encryption.
 //Text is the Confidential data which we need to encrypt using 'password'(Key).
@@ -27,3 +27,13 @@ console.log(e);
 //calling the decrypt function and printing the decrypted content
 var d = decrypt(e);
 console.log(d);
+*/
+
+ /**
+    Example of Asymmetric encryption
+    Encrypting using private key and decrypting using public key
+    File Name : enc-priv-dec-pub.js
+    Author : @nodejsera
+ **/
+ 
+ 
