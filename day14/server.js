@@ -10,5 +10,13 @@ app.use( express.static('public') );
 const io = socket( server );
 
 io.on( 'connection', socket => {
-  console.log(socket.id, 'arda')
+  console.log(socket.id, 'arda');
+  
+  socket.on( 'chat', data => {
+    io.sockets.emit( 'chat', data )
+  })
+  
+  socket.on( 'typing', data => {
+    socket.broadcast.emit( 'typing', data )
+  })
 })
